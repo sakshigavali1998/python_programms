@@ -1,0 +1,6 @@
+s = input("enter words:")
+lst = s.split(",")
+print(lst)
+lst.sort()
+print("after sorted:")
+print(','.join(lst))

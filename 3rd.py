@@ -1,0 +1,5 @@
+n = input("enter strings:")
+a = n.split()
+print("list is:",a)
+b= tuple(a)
+print("tuple is :",b)
